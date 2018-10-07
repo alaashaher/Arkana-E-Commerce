@@ -1,0 +1,239 @@
+@import './carousel.css';
+
+// Your customize CSS
+/* header start */
+.logo , .share {
+    margin-left: 20%;
+}
+
+.header {
+    height: 600px;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+.nav {
+    background-color: #dddddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header ul li a{
+    color:  rgba(22, 25, 24, 255);
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-weight: 100;
+}
+
+.sec-nav {
+    border-top: 1px solid #cfcfcf;
+    margin-top: 32px;
+    margin-left: 30%;
+}
+
+.carousel-caption h5 {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 56pt;
+    color: rgba(22, 25, 24, 255);
+    text-align: left; 
+}
+
+.carousel-caption p {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13pt;
+    color: rgba(127, 127, 127, 255);
+    text-align: left;
+    width: 356px;
+}
+
+.discover-btn {
+    float: left;
+}
+@media (min-width:713px) and (max-width:991px){
+    .button-nav {
+        margin-top: 50px;
+        float: left;
+    }
+}
+/* header end */
+
+/* Top Trending start */
+.section {
+    margin-top: 50px;
+}
+
+.section-header h3 {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 42pt;
+    color: rgba(22, 25, 24, 255);
+}
+
+.section-header p {
+    font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13pt;
+    color: rgba(146, 146, 146, 255);
+    text-align: center;
+}
+
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 12px;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    border-bottom: 5px solid #fff;
+}
+.simplefilter li {
+    border: 1px solid transparent;
+    background: none;
+    position: relative;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    letter-spacing: 2px;
+    color: #292929;
+    font-size: 1em;
+    background-color: #eeeeee;
+}
+.simplefilter li.active, .simplefilter li:hover {
+    color: #fff;
+    background: #292929;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.w3ls-section{
+	padding: 5% 0px;
+}
+.top-trending-body {
+    margin-top: 100px;
+}
+.scrollbar.agileits-portfolio-scroll {
+    overflow: initial;
+    margin-left: 5%;
+    margin-top: -5%; 
+}
+.port-head {
+    text-align: center;
+}
+figure.w3ls-gallery {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+figure.w3ls-gallery:hover figcaption.w3layouts-caption {
+    -ms-filter: alpha(Opacity=100);
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    top: 0;
+}
+
+figcaption.w3layouts-caption {
+    -ms-filter:alpha(Opacity=0);
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+	top: -100%;
+    background: rgba(220, 222, 223, 0.555);
+    color: #fff;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .5s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+	    text-align: center;
+}
+figcaption a {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+figcaption a:hover {
+    color: #4f5856;
+    background: #fff;
+}
+
+figcaption.w3layouts-caption a {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 4px 0px;
+    text-decoration: none;
+}
+
+.w3layouts-caption button {
+    top: 80%;
+}
+figcaption.w3layouts-caption:hover {
+    color: #4f5856;
+}
+// .gallery {
+//     padding: 6em 0;
+// }
+.ga-top{
+	margin-bottom:3em;
+}
+
+.filtr-item {
+    padding: 0em;
+    width: 24.8%;
+    float: left;
+    // margin-left: 1%;
+}
+.filtr-container {
+	width:100%;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+}
+.prodect-price {
+color: rgba(146, 146, 146, 255);
+}
+.prodect-des {
+color: rgba(22, 25, 24, 255);
+
+}
+
+figcaption button{
+    margin-top: 150%;
+    width: 40%;
+}
+
+
+
+
+/* Top Trending end */
