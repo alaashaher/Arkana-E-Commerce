@@ -33,7 +33,7 @@
     font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
     font-size: 56pt;
     color: rgba(22, 25, 24, 255);
-    text-align: left; 
+    text-align: left;
 }
 
 .carousel-caption p {
@@ -120,7 +120,7 @@
 .scrollbar.agileits-portfolio-scroll {
     overflow: initial;
     margin-left: 5%;
-    margin-top: -5%; 
+    margin-top: -5%;
 }
 .port-head {
     text-align: center;
@@ -232,8 +232,66 @@ figcaption button{
     margin-top: 150%;
     width: 40%;
 }
-
-
-
-
 /* Top Trending end */
+
+
+
+
+
+/* logo section */
+.logos {
+  margin-top: 20px;
+}
+/* footer start */
+.footer-email {
+    padding: 10px;
+    float: left;
+    padding-left: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+.subscribe-btn {
+  margin-top: 20px;
+}
+.footer_cloumn_dec ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: -34px;
+}
+
+.footer_cloumn_dec , .footer_cloumn_dec ul li a {
+    color: rgba(146, 146, 146, 255);
+}
+
+footer {
+  background-color: #fafafa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.footer_body {
+  margin-left: 80px;
+}
+.footer_cloumn_dec {
+  margin-top: 20px;
+}
+
+.icon-footer {
+  margin-top: 20px;
+}
+.icon-footer i {
+  margin-left: 5px;
+}
+.last-footer {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  padding-bottom: 50px;
+  color: rgba(149, 148, 148, 255);
+  margin-top: 50px;
+}
+.footer-image {
+  margin-left: 100px;
+}
