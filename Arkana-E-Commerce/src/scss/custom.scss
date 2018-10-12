@@ -271,11 +271,24 @@ color: rgba(22, 25, 24, 255);
   margin-top: 30px;
 }
 
+.instgram {
+  margin-top: 60px;
+}
+.instgram-image img{
+  width: 115%;
+}
+.instgram-word {
+  z-index: 3;
+  margin-top: -140px;
+  color: white;
+  font-size: 30px;
+  font-family: ﻿Montserrat-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+}
 /* map section */
 #map {
+  margin-top: -58px;
     height: 300px;
     width: 100%;
-    margin-top: 50px;
 }
 #map img {
   width: 100%;
@@ -285,7 +298,7 @@ color: rgba(22, 25, 24, 255);
     height: 150px;
     z-index: 3;
     margin-left: 50%;
-    margin-top: -200px;
+    margin-top: -240px;
     position:absolute;
     padding-left: 10px;
     padding-top: 10px;
@@ -316,7 +329,7 @@ footer {
   background-color: #fafafa;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .footer_body {
