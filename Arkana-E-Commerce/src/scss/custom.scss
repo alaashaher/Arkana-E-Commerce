@@ -1,6 +1,9 @@
 @import './carousel.css';
 
 // Your customize CSS
+body {
+  overflow-x: hidden;
+}
 /* header start */
 .logo , .share {
     margin-left: 20%;
@@ -48,6 +51,27 @@
 }
 /* header end */
 
+/* banner start */
+.banner {
+  margin-top: 100px;
+}
+.banner h3 {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 255);
+  font-size: 20px;
+}
+.banner p {
+  color: rgba(146, 146, 146, 255);
+  font-size: 15px;
+  margin-top: 10px;
+}
+.banner-btn {
+  margin-top: -100px;
+  z-index: 3;
+}
+.banner-pic {
+  margin-top: 100px;
+}
 /* Top Trending start */
 .section {
     margin-top: 50px;
