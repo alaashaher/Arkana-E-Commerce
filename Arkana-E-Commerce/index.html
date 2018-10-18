@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -55,10 +57,12 @@
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <img style="position:absolute;width:11px;height:18px" src="./public/left@1X.png" alt=".." />
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <img style="position:absolute;width:11px;height:18px" src="./public/arrow@1X.png" alt=".." />
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -68,6 +72,11 @@
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.</p>
         <button class="btn btn-dark discover-btn">DISCOVER MORE</button>
+        <ol class="carousel-indicators">
+          <li data-target="#arkanaIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#arkanaIndicators" data-slide-to="1"></li>
+          <li data-target="#arkanaIndicators" data-slide-to="2"></li>
+        </ol>
       </div>
     </div>
   </header>
@@ -80,38 +89,43 @@
         <div class="col-lg-4 col-sm-12 text-center">
           <img src="/public/Wallet2@1X.png">
           <h3> Discount system</h3>
-          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat</p>
+          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+            placeat</p>
         </div>
         <div class="col-lg-4 col-sm-12">
           <img src="/public/Bus@1X.png">
           <h3> Free delivery</h3>
-          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat</p>
+          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+            placeat</p>
         </div>
         <div class="col-lg-4 col-sm-12">
           <img src="/public/Person@1X.png">
-          <h3>  Support 24/7</h3>
-          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat</p>
+          <h3> Support 24/7</h3>
+          <p> Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+            placeat</p>
         </div>
       </div>
     </div>
     <div class="clearfix"></div>
-    <div class="col-lg-12 banner-pic">
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <img src="/public/Image@1X.png">
-          <div class="text-center banner-btn"> <button class="btn btn-light">DRESSES</button></div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <img src="/public/Img@2X.png">
-          <div class="text-center banner-btn"> <button class="btn btn-light">BLOUSES</button></div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <img src="/public/Img@3X.png">
-          <div class="text-center banner-btn"> <button class="btn btn-light">T-SHIRTS</button></div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <img src="/public/Pic@4X.png">
-          <div class="text-center banner-btn"> <button class="btn btn-dark">OUTERWEAR</button></div>
+    <div class=" container-fluid">
+      <div class="col-lg-12 banner-pic">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <img src="/public/Image@1X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center "> <button class="btn btn-light banner-btn"><a href="#">DRESSES</a></button></div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <img src="/public/Img@2X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center "> <button class="btn btn-light banner-btn"><a href="#">BLOUSES</a></button></div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <img src="/public/Img@3X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center "> <button class="btn btn-light banner-btn"><a href="#">T-SHIRTS</a></button></div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <img src="/public/Pic@4X.png" class="banner-img" height="440px" width="100%" alt="....">
+            <div class="text-center"> <button class="btn btn-dark  banner-btn banner-btn-black"><a href="#">OUTERWEAR</a></button></div>
+          </div>
         </div>
       </div>
     </div>
@@ -297,8 +311,9 @@
     <div id="prodect-image" class="col-lg-6 col-md-4 col-sm-5"> <img src="/public/Img@1X.png"></div>
     <div class="col-lg-5 text-center pordect-rigth">
       <div class="prodect-title">Bags & Shoes</div>
-      <div class="prodect-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div class="prodect-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
       <div><button class="btn btn-light discovery-btn">DISCOVRY MORE</button></div>
     </div>
 
@@ -328,8 +343,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
         <div class="col-lg-2 col-md-1 col-sm-1 logo-image">
           <img src="/public/Logo_16@1X.png">
         </div>
+      </div>
     </div>
-  </div>
   </section>
   <!--logos section end -->
 
@@ -356,7 +371,9 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
           <img src="/public/6@1X.png">
         </div>
       </div>
-      <div class="row text-center"><div class="instgram-word col-lg-12">#instgram</div></div>
+      <div class="row text-center">
+        <div class="instgram-word col-lg-12">#instgram</div>
+      </div>
     </div>
   </section>
   <!-- instgram end -->
@@ -365,10 +382,12 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
   </section>
   <!-- map section -->
-  <section >
+  <section>
     <div id="map"><img src="/public/Map@1X.png"></div>
-    <div class="text-center"><div class="address">Alterego, 1 Infinite Loop, Cupertino,
-CA 95014<br>8 - 800 - 2000 - 3000<br>demo@demo.com<br>Mon. - Sun: 09:00 - 19:00 </div></div>
+    <div class="text-center">
+      <div class="address">Alterego, 1 Infinite Loop, Cupertino,
+        CA 95014<br>8 - 800 - 2000 - 3000<br>demo@demo.com<br>Mon. - Sun: 09:00 - 19:00 </div>
+    </div>
   </section>
   <!--footer start-->
   <footer id="footer" class="row">
@@ -377,12 +396,14 @@ CA 95014<br>8 - 800 - 2000 - 3000<br>demo@demo.com<br>Mon. - Sun: 09:00 - 19:00 
         <div class="row footer_body">
           <div class="col-lg-3 col-sm-6 footer_body_contain">
             <div class="footer_cloumn_title"><img src="./public/Logo@1X.png"></div>
-            <div class="footer_cloumn_dec footer_cloumn_dec1 ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            <div class="footer_cloumn_dec footer_cloumn_dec1 ">Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore
               eu fugiat nulla pariatur. </div>
-            <div class="text-center icon-footer"><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i class="fab fa-pinterest-square"></i>
+            <div class="text-center icon-footer"><i class="fab fa-facebook"></i> <i class="fab fa-instagram"></i> <i
+                class="fab fa-pinterest-square"></i>
               <i class="fab fa-twitter"></i></div>
             <div class="text-center"><input placeholder="Enter your e-mail" class="footer-email"></div>
-              <div class="text-center subscribe-btn"><button class="btn subscribe-btn">SUBSCRIBE</button></div>
+            <div class="text-center subscribe-btn"><button class="btn subscribe-btn">SUBSCRIBE</button></div>
           </div>
 
           <div class="col-lg-3 col-sm-6 footer_body_contain">
@@ -457,7 +478,8 @@ CA 95014<br>8 - 800 - 2000 - 3000<br>demo@demo.com<br>Mon. - Sun: 09:00 - 19:00 
         </div>
       </div>
     </div>
-    <div class="text-center last-footer">© 2017 - Ecommerce software by PrestaShop™ <img src="/public/pay-method@1X.png" class="footer-image"></div>
+    <div class="text-center last-footer">© 2017 - Ecommerce software by PrestaShop™ <img src="/public/pay-method@1X.png"
+        class="footer-image"></div>
   </footer>
   <!--footer end-->
   <!-- <script src="./src/jquery.min.js"></script> -->
