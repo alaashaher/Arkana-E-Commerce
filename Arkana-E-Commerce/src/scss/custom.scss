@@ -438,6 +438,14 @@ button {
   padding-top: 20px;
   margin-top: 0px;
   margin-top: 50px;
+	margin-bottom: 20px
+}
+#prodect .row div:first-of-type{
+	padding: 0
+}
+#prodect .row div:last-of-type{
+	padding: 40px 80px;
+	background: #fafafa;
 }
 
 #prodect-image {
@@ -458,43 +466,65 @@ button {
 .pordect-rigth {
   background-color: #fafafa;
   padding-top: 40px;
-  margin-left: -50px;
+  margin-left: 0px;
 }
 
 .discovery-btn {
-  border: 1px solid black;
-  margin-top: 20px;
+  font-size: 11pt;
+	color: rgba(0, 0, 0, 255);
+	border: 1px solid #000;
+    padding: 12px 20px;
+}
+
+.discover-btn:hover {
+  color: #fafafa;
+	background: #000
 }
 
 .prodect-desc {
-  color: rgba(146, 146, 146, 255);
+  font-size: 9pt;
+color: rgba(146, 146, 146, 255);
+margin: 30px auto 60px
 
+}
+.prodect-line {
+	width: 60px
 }
 
 /* logo section */
 .logos {
-  margin-top: 30px;
+  margin-top: 200px;
 }
 
-.instgram {
+.instgram .container-fluid{
   margin-top: 60px;
+   padding: 0
 }
 
 .instgram-image img {
-  width: 115%;
+  width: calc(100% / 6);
+	height: 180px;
+	float: left
 }
-
+.instgram-image {
+  position: relative;
+	width: 100%;
+	height: 180px;
+	z-index: -1
+}
 .instgram-word {
-  z-index: 3;
-  margin-top: -140px;
+  z-index: 22;
+  position: absolute;
+	top: 10%;
+	left: 50%;
+	font-family: 'Montserrat';
+  font-size: 42pt;
   color: white;
-  font-size: 30px;
-  font-family: Montserrat-Regular, AdobeInvisFont, MyriadPro-Regular;
 }
 
 /* map section */
 #map {
-  margin-top: -58px;
+  margin-top: 58px;
   height: 300px;
   width: 100%;
 }
@@ -505,29 +535,21 @@ button {
 
 .address {
   width: 250px;
-  height: 150px;
+  height: 200px;
   z-index: 3;
-  margin-left: 50%;
+  margin-left: 10%;
   margin-top: -240px;
   position: absolute;
-  padding-left: 10px;
-  padding-top: 10px;
   background-color: white;
+  font-family:  'Montserrat';
+     font-size: 11pt;
+	padding: 40px;
+     color: rgba(1, 1, 1, 255);
+     text-align: left;
+	background: #FFF;
 }
 
 /* footer start */
-.footer-email {
-  padding: 10px;
-  float: left;
-  padding-left: 20px;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.subscribe-btn {
-  margin-top: 20px;
-}
-
 .footer_cloumn_dec ul {
   list-style-type: none;
   text-align: left;
@@ -575,7 +597,30 @@ footer {
 .footer-image {
   margin-left: 100px;
 }
+footer form{
+    margin-top: 30px;
+	position: relative
+}
+footer form input[type='text']{
+    width: 100%;
+	padding: 10px ;
+	border:1px solid #dfdfdf
+}
+footer form input[type='submit']{
+    position: absolute;
+	right: 0;
+	top: 0;
+	background: transparent;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+  font-weight: 400;
+}
 
+footer form input[type='submit']:hover {
+  color: white;
+  background-color: #212529;
+}
 /* footer end */
 
 /* media query */
@@ -632,10 +677,6 @@ footer {
 
   .simplefilter li {
     width: 120px;
-  }
-
-  .filtr-container {
-    width: 190%;
   }
 
   .logo-image {
